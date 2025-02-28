@@ -1,0 +1,8 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import 'bootstrap/dist/css/bootstrap.min.css'; // Importa el CSS de Bootstrap
+import './App.css'; // Estilos globales opcionales
+import App from './App';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);
