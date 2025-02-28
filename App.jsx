@@ -66,7 +66,7 @@ function App() {
   return (
     <>
       {/* Navbar */}
-      <Navbar bg="dark" variant="dark" expand="lg">
+      <Navbar bg="dark" variant="dark">
         <Container>
           <Navbar.Brand href="#home">CoffeeWorld</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarCoffee" />
@@ -87,13 +87,6 @@ function App() {
 
       <Container className="my-4">
         <h1 className="title-center">Bienvenido a CoffeeWorld</h1>
-
-        {/* Alert de bienvenida */}
-        {showAlert && (
-          <Alert variant="success" dismissible onClose={() => setShowAlert(false)}>
-            ¡Disfruta de nuestro café recién hecho!
-          </Alert>
-        )}
 
         {/* Carousel con imágenes locales */}
         <Carousel className="mb-4">
