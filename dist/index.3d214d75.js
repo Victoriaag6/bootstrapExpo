@@ -2952,7 +2952,7 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
 var _client = require("react-dom/client");
 var _clientDefault = parcelHelpers.interopDefault(_client);
 var _bootstrapMinCss = require("bootstrap/dist/css/bootstrap.min.css"); // Importa el CSS de Bootstrap
-var _appCss = require("./App.css"); // Estilos globales opcionales
+var _appCss = require("./App.css");
 var _app = require("./App");
 var _appDefault = parcelHelpers.interopDefault(_app);
 const root = (0, _clientDefault.default).createRoot(document.getElementById('root'));
@@ -27217,7 +27217,6 @@ var prevRefreshSig = window.$RefreshSig$;
 $parcel$ReactRefreshHelpers$53a7.prelude(module);
 
 try {
-// App.jsx (o App.js)
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
@@ -27225,14 +27224,12 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _reactBootstrap = require("react-bootstrap");
 var _appCss = require("./App.css");
-// Importación de imágenes para el Carousel
 var _granosCafeePng = require("./assets/granosCafee.png");
 var _granosCafeePngDefault = parcelHelpers.interopDefault(_granosCafeePng);
 var _baristaWebp = require("./assets/barista.webp");
 var _baristaWebpDefault = parcelHelpers.interopDefault(_baristaWebp);
 var _cafeteriaAvif = require("./assets/cafeteria.avif");
 var _cafeteriaAvifDefault = parcelHelpers.interopDefault(_cafeteriaAvif);
-// Importación de imágenes para los productos
 var _cappuchinoJpg = require("./assets/cappuchino.jpg");
 var _cappuchinoJpgDefault = parcelHelpers.interopDefault(_cappuchinoJpg);
 var _espressoJpg = require("./assets/espresso.jpg");
@@ -27254,7 +27251,6 @@ function App() {
     const handleCloseModal = ()=>setShowModal(false);
     const handleShowToast = ()=>setShowToast(true);
     const handleCloseToast = ()=>setShowToast(false);
-    // Datos de ejemplo para las Cards de café usando imágenes locales
     const coffeeItems = [
         {
             title: "Espresso",
@@ -27290,14 +27286,14 @@ function App() {
                             children: "CoffeeWorld"
                         }, void 0, false, {
                             fileName: "App.jsx",
-                            lineNumber: 76,
+                            lineNumber: 71,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Navbar).Toggle, {
                             "aria-controls": "navbarCoffee"
                         }, void 0, false, {
                             fileName: "App.jsx",
-                            lineNumber: 77,
+                            lineNumber: 72,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Navbar).Collapse, {
@@ -27310,7 +27306,7 @@ function App() {
                                         children: "Inicio"
                                     }, void 0, false, {
                                         fileName: "App.jsx",
-                                        lineNumber: 80,
+                                        lineNumber: 75,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Nav).Link, {
@@ -27318,7 +27314,7 @@ function App() {
                                         children: "Nosotros"
                                     }, void 0, false, {
                                         fileName: "App.jsx",
-                                        lineNumber: 81,
+                                        lineNumber: 76,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.NavDropdown), {
@@ -27330,7 +27326,7 @@ function App() {
                                                 children: "Caf\xe9 para llevar"
                                             }, void 0, false, {
                                                 fileName: "App.jsx",
-                                                lineNumber: 83,
+                                                lineNumber: 78,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.NavDropdown).Item, {
@@ -27338,12 +27334,12 @@ function App() {
                                                 children: "Degustaciones"
                                             }, void 0, false, {
                                                 fileName: "App.jsx",
-                                                lineNumber: 84,
+                                                lineNumber: 79,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.NavDropdown).Divider, {}, void 0, false, {
                                                 fileName: "App.jsx",
-                                                lineNumber: 85,
+                                                lineNumber: 80,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.NavDropdown).Item, {
@@ -27351,35 +27347,35 @@ function App() {
                                                 children: "Barista en casa"
                                             }, void 0, false, {
                                                 fileName: "App.jsx",
-                                                lineNumber: 86,
+                                                lineNumber: 81,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "App.jsx",
-                                        lineNumber: 82,
+                                        lineNumber: 77,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "App.jsx",
-                                lineNumber: 79,
+                                lineNumber: 74,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "App.jsx",
-                            lineNumber: 78,
+                            lineNumber: 73,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "App.jsx",
-                    lineNumber: 75,
+                    lineNumber: 70,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 74,
+                lineNumber: 69,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Container), {
@@ -27390,7 +27386,7 @@ function App() {
                         children: "Bienvenido a CoffeeWorld"
                     }, void 0, false, {
                         fileName: "App.jsx",
-                        lineNumber: 94,
+                        lineNumber: 89,
                         columnNumber: 9
                     }, this),
                     showAlert && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Alert), {
@@ -27400,7 +27396,7 @@ function App() {
                         children: "\xa1Disfruta de nuestro caf\xe9 reci\xe9n hecho!"
                     }, void 0, false, {
                         fileName: "App.jsx",
-                        lineNumber: 98,
+                        lineNumber: 93,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Carousel), {
@@ -27414,7 +27410,7 @@ function App() {
                                         alt: "Granos de caf\xe9"
                                     }, void 0, false, {
                                         fileName: "App.jsx",
-                                        lineNumber: 106,
+                                        lineNumber: 101,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Carousel).Caption, {
@@ -27423,26 +27419,26 @@ function App() {
                                                 children: "Granos de Caf\xe9"
                                             }, void 0, false, {
                                                 fileName: "App.jsx",
-                                                lineNumber: 108,
+                                                lineNumber: 103,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                                 children: "Seleccionamos solo los mejores granos."
                                             }, void 0, false, {
                                                 fileName: "App.jsx",
-                                                lineNumber: 109,
+                                                lineNumber: 104,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "App.jsx",
-                                        lineNumber: 107,
+                                        lineNumber: 102,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "App.jsx",
-                                lineNumber: 105,
+                                lineNumber: 100,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Carousel).Item, {
@@ -27453,7 +27449,7 @@ function App() {
                                         alt: "Barista preparando caf\xe9"
                                     }, void 0, false, {
                                         fileName: "App.jsx",
-                                        lineNumber: 113,
+                                        lineNumber: 108,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Carousel).Caption, {
@@ -27462,26 +27458,26 @@ function App() {
                                                 children: "Baristas Expertos"
                                             }, void 0, false, {
                                                 fileName: "App.jsx",
-                                                lineNumber: 115,
+                                                lineNumber: 110,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                                 children: "Crean bebidas irresistibles."
                                             }, void 0, false, {
                                                 fileName: "App.jsx",
-                                                lineNumber: 116,
+                                                lineNumber: 111,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "App.jsx",
-                                        lineNumber: 114,
+                                        lineNumber: 109,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "App.jsx",
-                                lineNumber: 112,
+                                lineNumber: 107,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Carousel).Item, {
@@ -27492,7 +27488,7 @@ function App() {
                                         alt: "Ambiente acogedor"
                                     }, void 0, false, {
                                         fileName: "App.jsx",
-                                        lineNumber: 120,
+                                        lineNumber: 115,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Carousel).Caption, {
@@ -27501,32 +27497,32 @@ function App() {
                                                 children: "Ambiente Acogedor"
                                             }, void 0, false, {
                                                 fileName: "App.jsx",
-                                                lineNumber: 122,
+                                                lineNumber: 117,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                                 children: "Si\xe9ntete en casa con nuestro caf\xe9."
                                             }, void 0, false, {
                                                 fileName: "App.jsx",
-                                                lineNumber: 123,
+                                                lineNumber: 118,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "App.jsx",
-                                        lineNumber: 121,
+                                        lineNumber: 116,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "App.jsx",
-                                lineNumber: 119,
+                                lineNumber: 114,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "App.jsx",
-                        lineNumber: 104,
+                        lineNumber: 99,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Tabs), {
@@ -27542,12 +27538,12 @@ function App() {
                                     children: "Nuestro men\xfa incluye una variedad de caf\xe9s y snacks."
                                 }, void 0, false, {
                                     fileName: "App.jsx",
-                                    lineNumber: 131,
+                                    lineNumber: 126,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "App.jsx",
-                                lineNumber: 130,
+                                lineNumber: 125,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Tab), {
@@ -27558,12 +27554,12 @@ function App() {
                                     children: "Descubre nuestras ofertas y descuentos especiales."
                                 }, void 0, false, {
                                     fileName: "App.jsx",
-                                    lineNumber: 134,
+                                    lineNumber: 129,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "App.jsx",
-                                lineNumber: 133,
+                                lineNumber: 128,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Tab), {
@@ -27575,18 +27571,18 @@ function App() {
                                     children: "Esta secci\xf3n est\xe1 deshabilitada."
                                 }, void 0, false, {
                                     fileName: "App.jsx",
-                                    lineNumber: 137,
+                                    lineNumber: 132,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "App.jsx",
-                                lineNumber: 136,
+                                lineNumber: 131,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "App.jsx",
-                        lineNumber: 129,
+                        lineNumber: 124,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Row), {
@@ -27602,7 +27598,7 @@ function App() {
                                             src: coffee.img
                                         }, void 0, false, {
                                             fileName: "App.jsx",
-                                            lineNumber: 146,
+                                            lineNumber: 141,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card).Body, {
@@ -27611,14 +27607,14 @@ function App() {
                                                     children: coffee.title
                                                 }, void 0, false, {
                                                     fileName: "App.jsx",
-                                                    lineNumber: 148,
+                                                    lineNumber: 143,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card).Text, {
                                                     children: coffee.text
                                                 }, void 0, false, {
                                                     fileName: "App.jsx",
-                                                    lineNumber: 149,
+                                                    lineNumber: 144,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Button), {
@@ -27627,29 +27623,29 @@ function App() {
                                                     children: "A\xf1adir al carrito"
                                                 }, void 0, false, {
                                                     fileName: "App.jsx",
-                                                    lineNumber: 150,
+                                                    lineNumber: 145,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "App.jsx",
-                                            lineNumber: 147,
+                                            lineNumber: 142,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "App.jsx",
-                                    lineNumber: 145,
+                                    lineNumber: 140,
                                     columnNumber: 15
                                 }, this)
                             }, i, false, {
                                 fileName: "App.jsx",
-                                lineNumber: 144,
+                                lineNumber: 139,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "App.jsx",
-                        lineNumber: 142,
+                        lineNumber: 137,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
@@ -27657,7 +27653,7 @@ function App() {
                         children: "Reserva tu mesa"
                     }, void 0, false, {
                         fileName: "App.jsx",
-                        lineNumber: 160,
+                        lineNumber: 155,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Form), {
@@ -27674,7 +27670,7 @@ function App() {
                                                 children: "Nombre"
                                             }, void 0, false, {
                                                 fileName: "App.jsx",
-                                                lineNumber: 164,
+                                                lineNumber: 159,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Form).Control, {
@@ -27682,13 +27678,13 @@ function App() {
                                                 placeholder: "Tu nombre"
                                             }, void 0, false, {
                                                 fileName: "App.jsx",
-                                                lineNumber: 165,
+                                                lineNumber: 160,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "App.jsx",
-                                        lineNumber: 163,
+                                        lineNumber: 158,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Form).Group, {
@@ -27699,7 +27695,7 @@ function App() {
                                                 children: "Tel\xe9fono"
                                             }, void 0, false, {
                                                 fileName: "App.jsx",
-                                                lineNumber: 168,
+                                                lineNumber: 163,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Form).Control, {
@@ -27707,19 +27703,19 @@ function App() {
                                                 placeholder: "N\xfamero de contacto"
                                             }, void 0, false, {
                                                 fileName: "App.jsx",
-                                                lineNumber: 169,
+                                                lineNumber: 164,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "App.jsx",
-                                        lineNumber: 167,
+                                        lineNumber: 162,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "App.jsx",
-                                lineNumber: 162,
+                                lineNumber: 157,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Form).Group, {
@@ -27730,7 +27726,7 @@ function App() {
                                         children: "Correo electr\xf3nico"
                                     }, void 0, false, {
                                         fileName: "App.jsx",
-                                        lineNumber: 173,
+                                        lineNumber: 168,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Form).Control, {
@@ -27738,13 +27734,13 @@ function App() {
                                         placeholder: "tuemail@ejemplo.com"
                                     }, void 0, false, {
                                         fileName: "App.jsx",
-                                        lineNumber: 174,
+                                        lineNumber: 169,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "App.jsx",
-                                lineNumber: 172,
+                                lineNumber: 167,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Form).Group, {
@@ -27755,7 +27751,7 @@ function App() {
                                         children: "N\xfamero de personas"
                                     }, void 0, false, {
                                         fileName: "App.jsx",
-                                        lineNumber: 177,
+                                        lineNumber: 172,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Form).Control, {
@@ -27763,13 +27759,13 @@ function App() {
                                         placeholder: "Ej. 2"
                                     }, void 0, false, {
                                         fileName: "App.jsx",
-                                        lineNumber: 178,
+                                        lineNumber: 173,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "App.jsx",
-                                lineNumber: 176,
+                                lineNumber: 171,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Form).Group, {
@@ -27780,12 +27776,12 @@ function App() {
                                     label: "Deseo recibir notificaciones de CoffeeWorld"
                                 }, void 0, false, {
                                     fileName: "App.jsx",
-                                    lineNumber: 181,
+                                    lineNumber: 176,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "App.jsx",
-                                lineNumber: 180,
+                                lineNumber: 175,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Button), {
@@ -27794,13 +27790,13 @@ function App() {
                                 children: "Reservar"
                             }, void 0, false, {
                                 fileName: "App.jsx",
-                                lineNumber: 183,
+                                lineNumber: 178,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "App.jsx",
-                        lineNumber: 161,
+                        lineNumber: 156,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Button), {
@@ -27809,7 +27805,7 @@ function App() {
                         children: "Ver detalles de la Cafeter\xeda"
                     }, void 0, false, {
                         fileName: "App.jsx",
-                        lineNumber: 189,
+                        lineNumber: 184,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Modal), {
@@ -27822,12 +27818,12 @@ function App() {
                                     children: "Sobre CoffeeWorld"
                                 }, void 0, false, {
                                     fileName: "App.jsx",
-                                    lineNumber: 196,
+                                    lineNumber: 191,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "App.jsx",
-                                lineNumber: 195,
+                                lineNumber: 190,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Modal).Body, {
@@ -27835,12 +27831,12 @@ function App() {
                                     children: "Somos una cafeter\xeda dedicada a brindar la mejor experiencia de sabor y hospitalidad. Nuestros baristas preparan cada taza con pasi\xf3n y dedicaci\xf3n."
                                 }, void 0, false, {
                                     fileName: "App.jsx",
-                                    lineNumber: 199,
+                                    lineNumber: 194,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "App.jsx",
-                                lineNumber: 198,
+                                lineNumber: 193,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Modal).Footer, {
@@ -27851,7 +27847,7 @@ function App() {
                                         children: "Cerrar"
                                     }, void 0, false, {
                                         fileName: "App.jsx",
-                                        lineNumber: 205,
+                                        lineNumber: 200,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Button), {
@@ -27860,19 +27856,19 @@ function App() {
                                         children: "\xa1Gracias!"
                                     }, void 0, false, {
                                         fileName: "App.jsx",
-                                        lineNumber: 208,
+                                        lineNumber: 203,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "App.jsx",
-                                lineNumber: 204,
+                                lineNumber: 199,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "App.jsx",
-                        lineNumber: 194,
+                        lineNumber: 189,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.ToastContainer), {
@@ -27892,44 +27888,44 @@ function App() {
                                             children: "CoffeeWorld"
                                         }, void 0, false, {
                                             fileName: "App.jsx",
-                                            lineNumber: 218,
+                                            lineNumber: 213,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("small", {
                                             children: "Justo ahora"
                                         }, void 0, false, {
                                             fileName: "App.jsx",
-                                            lineNumber: 219,
+                                            lineNumber: 214,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "App.jsx",
-                                    lineNumber: 217,
+                                    lineNumber: 212,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Toast).Body, {
                                     children: "\xa1Producto a\xf1adido al carrito!"
                                 }, void 0, false, {
                                     fileName: "App.jsx",
-                                    lineNumber: 221,
+                                    lineNumber: 216,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "App.jsx",
-                            lineNumber: 216,
+                            lineNumber: 211,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "App.jsx",
-                        lineNumber: 215,
+                        lineNumber: 210,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "App.jsx",
-                lineNumber: 93,
+                lineNumber: 88,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("footer", {
@@ -27946,12 +27942,12 @@ function App() {
                     ]
                 }, void 0, true, {
                     fileName: "App.jsx",
-                    lineNumber: 228,
+                    lineNumber: 223,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 227,
+                lineNumber: 222,
                 columnNumber: 7
             }, this)
         ]

@@ -1,4 +1,3 @@
-// App.jsx (o App.js)
 import React, { useState } from 'react';
 import {
   Navbar,
@@ -20,12 +19,9 @@ import {
 } from 'react-bootstrap';
 import './App.css';
 
-// Importación de imágenes para el Carousel
 import granosCafe from './assets/granosCafee.png';
 import barista from './assets/barista.webp';
 import ambiente from './assets/cafeteria.avif';
-
-// Importación de imágenes para los productos
 import cappuchinoImg from './assets/cappuchino.jpg';
 import espressoImg from './assets/espresso.jpg';
 import latteImg from './assets/latte.jpg'; 
@@ -44,7 +40,6 @@ function App() {
   const handleShowToast = () => setShowToast(true);
   const handleCloseToast = () => setShowToast(false);
 
-  // Datos de ejemplo para las Cards de café usando imágenes locales
   const coffeeItems = [
     {
       title: "Espresso",
